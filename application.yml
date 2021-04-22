@@ -21,6 +21,7 @@ logging:
      
 eureka:
   instance:
+    instance-id: 0
     lease-renewal-interval-in-seconds: 1
     lease-expiration-duration-in-seconds: 2
   client:
